@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chelsea Leather Boots</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+        <div class="logo">COMP3612 Assign 1</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Cart (0)</a></li>
+        </ul>
+        </nav>
+    </header>
+
+<!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> > <a href="shop.html">Shoes</a> > Chelsea Leather Boots
+    </div>
+
+<!-- Product Section -->
+    <section class="product-page">
+        <div class="product-images">
+        <img src="images/008-small-front.png" alt="Chelsea Leather Boots" class="main-img">
+        <div class="thumbs">
+            <img src="images/008-small-front.png" alt="Thumb 1">
+            <img src="images/008-small-front.png" alt="Thumb 2">
+            <img src="images/008-small-front.png" alt="Thumb 3">
+        </div>
+        </div>
+
+        <div class="product-info">
+        <h1>Chelsea Leather Boots</h1>
+        <p class="rating">⭐⭐⭐⭐☆ (4.4/5) - 78 reviews</p>
+        <p class="price">$189.99</p>
+        <p>
+            These classic Chelsea boots are handcrafted from premium full-grain leather with elastic side panels for easy slip-on convenience. The leather-lined interior and cushioned insole provide all-day comfort for both professional and casual settings. Goodyear welt construction ensures years of reliable wear.
+        </p>
+
+        <!-- Add to Cart Form -->
+        <form action="https://www.randyconnolly.com/tests/process.php" method="POST">
+            <div class="options">
+            <label>Size:</label>
+            <div class="sizes">
+                <input type="radio" name="size" value="6"> 6
+                <input type="radio" name="size" value="7"> 7
+                <input type="radio" name="size" value="8" checked> 8
+                <input type="radio" name="size" value="9"> 9
+                <input type="radio" name="size" value="10"> 10
+                <input type="radio" name="size" value="11"> 11
+                <input type="radio" name="size" value="12"> 12
+            </div>
+            </div>
+
+            <div class="options">
+            <label>Color:</label>
+            <div class="colors">
+                <input type="radio" name="color" value="black" checked> <span class="swatch black"></span>
+                <input type="radio" name="color" value="brown"> <span class="swatch brown"></span>
+                <input type="radio" name="color" value="tan"> <span class="swatch tan"></span>
+            </div>
+            </div>
+
+            <div class="options">
+            <label for="qty">Quantity:</label>
+            <input type="number" id="qty" name="quantity" value="1" min="1">
+            </div>
+
+            <button type="submit" class="btn">Add to Cart</button>
+            <button type="button" class="btn wishlist">Add to Wishlist</button>
+        </form>
+        </div>
+    </section>
+
+<!-- Tabs -->
+    <section class="tabs">
+        <div class="tab-headers">
+        <button class="tab active">Description</button>
+        <button class="tab">Specifications</button>
+        <button class="tab">Care Instructions</button>
+        </div>
+        <div class="tab-content">
+        <h3>Product Details</h3>
+        <p>
+            These classic Chelsea boots are handcrafted from premium full-grain leather with elastic side panels for easy slip-on convenience. The leather-lined interior and cushioned insole provide all-day comfort for both professional and casual settings. Goodyear welt construction ensures years of reliable wear.
+        </p>
+        <table class="details">
+            <tr><th>Material</th><td>Premium full-grain leather</td></tr>
+            <tr><th>Style</th><td>Goodyear welt construction</td></tr>
+            <tr><th>Sides</th><td>Elastic side panels</td></tr>
+            <tr><th>Interior</th><td>Leather-lined interior</td></tr>
+            <tr><th>Sole</th><td>Oil-resistant sole</td></tr>
+        </table>
+        </div>
+    </section>
+
+<!-- Customer Reviews -->
+    <section class="reviews">
+        <h3>Customer Reviews</h3>
+        <div class="review">
+            <p><strong>Sophie G.</strong> ⭐⭐⭐⭐⭐ <span class="date">September 3, 2024</span></p>
+            <p>Incredible boots! The leather quality is outstanding and they're so comfortable from day one. Worth every penny.</p>
+        </div>
+        <div class="review">
+            <p><strong>Jake M.</strong> ⭐⭐⭐⭐☆ <span class="date">August 19, 2024</span></p>
+            <p>Excellent craftsmanship and the slip-on design is so convenient. Took about a week to fully break in but now they're perfect.</p>
+        </div>
+        <div class="review">
+            <p><strong>Emma T.</strong> ⭐⭐⭐⭐☆ <span class="date">August 1, 2024</span></p>
+            <p>Beautiful boots that work with both jeans and dress pants. The leather is thick and durable.</p>
+        </div>
+        <div class="review">
+            <p><strong>Ryan P.</strong> ⭐⭐⭐☆☆ <span class="date">July 22, 2024</span></p>
+            <p>High quality boots but they definitely run large. I should have sized down a half size. Otherwise excellent.</p>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <div class="footer-container">
+        <div class="footer-col">
+            <h4>Customer Service</h4>
+            <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        </div>
+        <hr/>
+        <p class="footer-bottom">&copy; 2025 COMP3612. All rights reserved.</p>
+    </footer>
+</body>
+</html>

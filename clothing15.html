@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classic Leather Loafers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+        <div class="logo">COMP3612 Assign 1</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Cart (0)</a></li>
+        </ul>
+        </nav>
+    </header>
+
+<!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> > <a href="shop.html">Shoes</a> > Classic Leather Loafers
+    </div>
+
+<!-- Product Section -->
+    <section class="product-page">
+        <div class="product-images">
+        <img src="images/clothing15.jpg" alt="Classic Leather Loafers" class="main-img">
+        <div class="thumbs">
+            <img src="images/clothing15.jpg" alt="Thumb 1">
+            <img src="images/clothing15.jpg" alt="Thumb 2">
+            <img src="images/clothing15.jpg" alt="Thumb 3">
+        </div>
+        </div>
+
+        <div class="product-info">
+        <h1>Classic Leather Loafers</h1>
+        <p class="rating">⭐⭐⭐⭐☆ (4.9/5) - 69 reviews</p>
+        <p class="price">$129.99</p>
+        <p>
+            These sophisticated penny loafers are handcrafted from premium leather with traditional stitching details and a classic silhouette. The leather-lined interior and cushioned footbed provide comfort for professional and casual settings alike. The flexible sole construction ensures easy walking from office to evening events.
+        </p>
+
+        <!-- Add to Cart Form -->
+        <form action="https://www.randyconnolly.com/tests/process.php" method="POST">
+            <div class="options">
+            <label>Size:</label>
+            <div class="sizes">
+                <input type="radio" name="size" value="7"> 7
+                <input type="radio" name="size" value="8"> 8
+                <input type="radio" name="size" value="9" checked> 9
+                <input type="radio" name="size" value="10"> 10
+                <input type="radio" name="size" value="11"> 11
+                <input type="radio" name="size" value="12"> 12
+            </div>
+            </div>
+
+            <div class="options">
+            <label>Color:</label>
+            <div class="colors">
+                <input type="radio" name="color" value="black" checked> <span class="swatch black"></span>
+                <input type="radio" name="color" value="brown"> <span class="swatch brown"></span>
+                <input type="radio" name="color" value="burgundy"> <span class="swatch burgundy"></span>
+            </div>
+            </div>
+
+            <div class="options">
+            <label for="qty">Quantity:</label>
+            <input type="number" id="qty" name="quantity" value="1" min="1">
+            </div>
+
+            <button type="submit" class="btn">Add to Cart</button>
+            <button type="button" class="btn wishlist">Add to Wishlist</button>
+        </form>
+        </div>
+    </section>
+
+<!-- Tabs -->
+    <section class="tabs">
+        <div class="tab-headers">
+        <button class="tab active">Description</button>
+        <button class="tab">Specifications</button>
+        <button class="tab">Care Instructions</button>
+        </div>
+        <div class="tab-content">
+        <h3>Product Details</h3>
+        <p>
+            These sophisticated penny loafers are handcrafted from premium leather with traditional stitching details and a classic silhouette. The leather-lined interior and cushioned footbed provide comfort for professional and casual settings alike. The flexible sole construction ensures easy walking from office to evening events.
+        </p>
+        <table class="details">
+            <tr><th>Material</th><td>Premium leather construction</td></tr>
+            <tr><th>Style</th><td>Hand-stitched details</td></tr>
+            <tr><th>Interior</th><td>Leather-lined interior</td></tr>
+            <tr><th>Footbed</th><td>Cushioned footbed</td></tr>
+            <tr><th>Sole</th><td>Flexible rubber sole</td></tr>
+        </table>
+        </div>
+    </section>
+
+<!-- Customer Reviews -->
+    <section class="reviews">
+        <h3>Customer Reviews</h3>
+        <div class="review">
+            <p><strong>William H.</strong> ⭐⭐⭐⭐⭐ <span class="date">August 28, 2024</span></p>
+            <p>Outstanding loafers! The leather quality is exceptional and they're comfortable right out of the box. Perfect for business casual.</p>
+        </div>
+        <div class="review">
+            <p><strong>Charlotte D.</strong> ⭐⭐⭐⭐☆ <span class="date">August 15, 2024</span></p>
+            <p>Beautiful shoes with classic styling. They needed a brief break-in period but now they're incredibly comfortable.</p>
+        </div>
+        <div class="review">
+            <p><strong>Henry M.</strong> ⭐⭐⭐⭐☆ <span class="date">August 1, 2024</span></p>
+            <p>High quality loafers that look great with dress pants or chinos. The leather is thick and well-finished.</p>
+        </div>
+        <div class="review">
+            <p><strong>Lily S.</strong> ⭐⭐⭐⭐⭐ <span class="date">July 24, 2024</span></p>
+            <p>Love these loafers! They're versatile enough for work or weekend and the comfort level is excellent.</p>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <div class="footer-container">
+        <div class="footer-col">
+            <h4>Customer Service</h4>
+            <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        </div>
+        <hr/>
+        <p class="footer-bottom">&copy; 2025 COMP3612. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classic Canvas Sneakers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+        <div class="logo">COMP3612 Assign 1</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Cart (0)</a></li>
+        </ul>
+        </nav>
+    </header>
+
+<!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> > <a href="shop.html">Shoes</a> > Classic Canvas Sneakers
+    </div>
+
+<!-- Product Section -->
+    <section class="product-page">
+        <div class="product-images">
+        <img src="images/clothing12.jpg" alt="Classic Canvas Sneakers" class="main-img">
+        <div class="thumbs">
+            <img src="images/clothing12.jpg" alt="Thumb 1">
+            <img src="images/clothing12.jpg" alt="Thumb 2">
+            <img src="images/clothing12.jpg" alt="Thumb 3">
+        </div>
+        </div>
+
+        <div class="product-info">
+        <h1>Classic Canvas Sneakers</h1>
+        <p class="rating">⭐⭐⭐⭐☆ (4.6/5) - 92 reviews</p>
+        <p class="price">$64.99</p>
+        <p>
+            These timeless canvas sneakers combine retro styling with modern comfort features for everyday versatility. The durable canvas upper is both breathable and easy to clean while the cushioned insole provides support for all-day wear. Vulcanized rubber sole offers excellent grip and flexibility.
+        </p>
+
+        <!-- Add to Cart Form -->
+        <form action="https://www.randyconnolly.com/tests/process.php" method="POST">
+            <div class="options">
+            <label>Size:</label>
+            <div class="sizes">
+                <input type="radio" name="size" value="6"> 6
+                <input type="radio" name="size" value="7"> 7
+                <input type="radio" name="size" value="8"> 8
+                <input type="radio" name="size" value="9" checked> 9
+                <input type="radio" name="size" value="10"> 10
+                <input type="radio" name="size" value="11"> 11
+                <input type="radio" name="size" value="12"> 12
+            </div>
+            </div>
+
+            <div class="options">
+            <label>Color:</label>
+            <div class="colors">
+                <input type="radio" name="color" value="white"> <span class="swatch white"></span>
+                <input type="radio" name="color" value="black" checked> <span class="swatch black"></span>
+                <input type="radio" name="color" value="navy"> <span class="swatch navy"></span>
+                <input type="radio" name="color" value="burgundy"> <span class="swatch burgundy"></span>
+            </div>
+            </div>
+
+            <div class="options">
+            <label for="qty">Quantity:</label>
+            <input type="number" id="qty" name="quantity" value="1" min="1">
+            </div>
+
+            <button type="submit" class="btn">Add to Cart</button>
+            <button type="button" class="btn wishlist">Add to Wishlist</button>
+        </form>
+        </div>
+    </section>
+
+<!-- Tabs -->
+    <section class="tabs">
+        <div class="tab-headers">
+        <button class="tab active">Description</button>
+        <button class="tab">Specifications</button>
+        <button class="tab">Care Instructions</button>
+        </div>
+        <div class="tab-content">
+        <h3>Product Details</h3>
+        <p>
+            These timeless canvas sneakers combine retro styling with modern comfort features for everyday versatility. The durable canvas upper is both breathable and easy to clean while the cushioned insole provides support for all-day wear. Vulcanized rubber sole offers excellent grip and flexibility.
+        </p>
+        <table class="details">
+            <tr><th>Material</th><td>Durable canvas construction</td></tr>
+            <tr><th>Type</th><td>Cushioned comfort insole</td></tr>
+            <tr><th>Sole</th><td>Vulcanized rubber sole</td></tr>
+            <tr><th>Laces</th><td>Metal eyelets</td></tr>
+            <tr><th>Size</th><td>Easy slip-on design</td></tr>
+        </table>
+        </div>
+    </section>
+
+<!-- Customer Reviews -->
+    <section class="reviews">
+        <h3>Customer Reviews</h3>
+        <div class="review">
+            <p><strong>Zoe B.</strong> ⭐⭐⭐⭐☆ <span class="date">August 30, 2024</span></p>
+            <p>Love these classic sneakers! They go with everything and are surprisingly comfortable for canvas shoes.</p>
+        </div>
+        <div class="review">
+            <p><strong>Jordan T.</strong> ⭐⭐⭐☆☆ <span class="date">August 16, 2024</span></p>
+            <p>Nice looking sneakers but they lack arch support. Fine for casual wear but not for long walks or standing.</p>
+        </div>
+        <div class="review">
+            <p><strong>Megan K.</strong> ⭐⭐⭐⭐⭐ <span class="date">August 2, 2024</span></p>
+            <p>Perfect everyday sneakers! The canvas is high quality and they've maintained their shape after months of wear.</p>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <div class="footer-container">
+        <div class="footer-col">
+            <h4>Customer Service</h4>
+            <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        </div>
+        <hr/>
+        <p class="footer-bottom">&copy; 2025 COMP3612. All rights reserved.</p>
+    </footer>
+</body>
+</html>

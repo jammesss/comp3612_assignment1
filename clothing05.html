@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business Casual Button-Down Shirt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+        <div class="logo">COMP3612 Assign 1</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Cart (0)</a></li>
+        </ul>
+        </nav>
+    </header>
+
+<!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> > <a href="shop.html">Shirts</a> > Business Casual Button-Down Shirt
+    </div>
+
+<!-- Product Section -->
+    <section class="product-page">
+        <div class="product-images">
+        <img src="images/clothing05.jpg" alt="Business Casual Button-Down Shirt" class="main-img">
+        <div class="thumbs">
+            <img src="images/clothing05.jpg" alt="Thumb 1">
+            <img src="images/clothing05.jpg" alt="Thumb 2">
+            <img src="images/clothing05.jpg" alt="Thumb 3">
+        </div>
+        </div>
+
+        <div class="product-info">
+        <h1>Business Casual Button-Down Shirt</h1>
+        <p class="rating">⭐⭐⭐⭐☆ (4.8/5) - 194 reviews</p>
+        <p class="price">$54.99</p>
+        <p>
+            This sophisticated button-down shirt combines classic styling with modern performance features for the contemporary professional. The wrinkle-resistant fabric maintains a crisp appearance throughout the day without ironing. Cut with a tailored fit that works equally well with suits or casual chinos.
+        </p>
+
+        <!-- Add to Cart Form -->
+        <form action="https://www.randyconnolly.com/tests/process.php" method="POST">
+            <div class="options">
+            <label>Size:</label>
+            <div class="sizes">
+                <input type="radio" name="size" value="14.5"> 14.5
+                <input type="radio" name="size" value="15"> 15
+                <input type="radio" name="size" value="15.5" checked> 15.5
+                <input type="radio" name="size" value="16"> 16
+                <input type="radio" name="size" value="16.5"> 16.5
+                <input type="radio" name="size" value="17"> 17
+                <input type="radio" name="size" value="17.5"> 17.5
+            </div>
+            </div>
+
+            <div class="options">
+            <label>Color:</label>
+            <div class="colors">
+                <input type="radio" name="color" value="white" checked> <span class="swatch white"></span>
+                <input type="radio" name="color" value="light-blue"> <span class="swatch light-blue"></span>
+                <input type="radio" name="color" value="pink"> <span class="swatch pink"></span>
+                <input type="radio" name="color" value="lavender"> <span class="swatch lavender"></span>
+                <input type="radio" name="color" value="gray"> <span class="swatch gray"></span>
+            </div>
+            </div>
+
+            <div class="options">
+            <label for="qty">Quantity:</label>
+            <input type="number" id="qty" name="quantity" value="1" min="1">
+            </div>
+
+            <button type="submit" class="btn">Add to Cart</button>
+            <button type="button" class="btn wishlist">Add to Wishlist</button>
+        </form>
+        </div>
+    </section>
+
+<!-- Tabs -->
+    <section class="tabs">
+        <div class="tab-headers">
+        <button class="tab active">Description</button>
+        <button class="tab">Specifications</button>
+        <button class="tab">Care Instructions</button>
+        </div>
+        <div class="tab-content">
+        <h3>Product Details</h3>
+        <p>
+            This sophisticated button-down shirt combines classic styling with modern performance features for the contemporary professional. The wrinkle-resistant fabric maintains a crisp appearance throughout the day without ironing. Cut with a tailored fit that works equally well with suits or casual chinos.
+        </p>
+        <table class="details">
+            <tr><th>Material</th><td>Advanced cushioning system</td></tr>
+            <tr><th>Style</th><td>Moisture-wicking technology</td></tr>
+            <tr><th>Fitting</th><td>Tailored professional fit</td></tr>
+            <tr><th>Button</th><td>Mother-of-pearl buttons</td></tr>
+            <tr><th>Others</th><td>French seams for durability</td></tr>
+        </table>
+        </div>
+    </section>
+
+<!-- Customer Reviews -->
+    <section class="reviews">
+        <h3>Customer Reviews</h3>
+        <div class="review">
+            <p><strong>James L.</strong> ⭐⭐⭐⭐⭐ <span class="date">August 30, 2024</span></p>
+            <p>Perfect dress shirt for work! The wrinkle-resistant feature really works - I can wear it all day and it still looks crisp.</p>
+        </div>
+        <div class="review">
+            <p><strong>Rachel M.</strong> ⭐⭐⭐⭐☆ <span class="date">August 14, 2024</span></p>
+            <p>Great quality shirt with excellent tailoring. The moisture-wicking is a nice touch for busy days. Fits perfectly.</p>
+        </div>
+        <div class="review">
+            <p><strong>Steven K.</strong> ⭐⭐⭐⭐☆ <span class="date">July 18, 2024</span></p>
+            <p>Solid business shirt that looks professional. The fabric quality is excellent and the buttons feel premium.</p>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <div class="footer-container">
+        <div class="footer-col">
+            <h4>Customer Service</h4>
+            <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        </div>
+        <hr/>
+        <p class="footer-bottom">&copy; 2025 COMP3612. All rights reserved.</p>
+    </footer>
+</body>
+</html>
